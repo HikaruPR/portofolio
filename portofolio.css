@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8dede;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  background: #581314;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a:hover {
+  background-color: #8f2325;
+  color: #110404;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #c52b2e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#introduction {
+  display: flex;
+  align-items: center;
+  height: 690px;
+  color: #110404;
+  background-color: #f8dede;
+  clip-path: polygon(32.94% -42px, 44.71% 104.3%, 0% 103.43%, 2px -6.39%);
+}
+
+.text {
+  padding-left: 30px;
+  flex-wrap: wrap;
+}
+
+.hutao {
+  background-image: url(hutao.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  display: flex;
+  flex: right 50%;
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.logo {
+  margin: 5px;
+
+  height: 35px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+}
+
+.pc {
+  text-align: center;
+}
+
+.rava {
+  border-radius: 90%;
+}
+
+p {
+  color: #110404;
+  text-align: center;
+}
+
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+div > .fa-brands {
+  font-size: 50px;
+}
+
+.icon-wrap > div {
+  flex-grow: 1;
+
+  border-radius: 5px;
+}
+
+.icon-wrap > div:hover {
+  transform: scale(1.2);
+}
